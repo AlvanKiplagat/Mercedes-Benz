@@ -1,0 +1,428 @@
+/* Reset the default margin and padding of all HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Style the header section */
+  .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/G-class.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .headerh {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/lx\ seats.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .home{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .home h1{
+    font-size: 62px;
+  }
+  .home p{
+    margin: 10px 0 40px;
+    font-size: 14 px;
+    color: white;
+  }
+  .headera {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/classic\ 1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .about{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .about h1{
+    font-size: 62px;
+  }
+  .about p{
+    margin: 10px 0 40px;
+    font-size: 14 px;
+    color: white;
+  }
+  .headers {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/mercedes\ s\ class.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+  }
+  .services{
+    width: 90%;
+    margin-top: 80px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .services h1{
+    font-size: 50px;
+  }
+  .services p{
+    margin: 10px 0 40px;
+    font-size: 14 px;
+    color: white;
+    text-align: left;
+  }
+  .headerc {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/yellow\ benz.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .Contact{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .Contact h1{
+    font-size: 62px;
+  }
+  .Contact p{
+    margin: 10px 0 40px;
+    font-size: 14 px;
+    color: white;
+  }
+
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 150px;
+  }
+.nav-links{
+  flex: 5;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-links ul li::after{
+  content: normal;
+  border: none;
+  width: 100%;
+  height: 2px;
+  padding: 12px 34px;
+  background: transparent;
+  display: inline;
+  margin: auto;
+  border: solid 10px magenta;
+}
+.nav-links ul li:hover{
+  border: 1px solid #fff;
+  background: #f4433f;
+  transition: 0,5s;
+}
+}
+.text-box{
+  width: 90%;
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+  color: #fff;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14 px;
+  color: white;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid magenta;
+  color: magenta;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  cursor: default;
+}
+.hero-btn:hover{
+  border: 1px solid yellowgreen;
+  background: white;
+  transition: 0,5s;
+}
+nav.fa{
+  display: none;
+}
+@media(max-width: 700px) {
+  .text-box h1{
+  font-size: 20px;
+  }
+  .nav-links ul li{
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background: #f4433f;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav.fa{
+    display: block;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 10px;
+    color: #fff;
+  }
+  .nav-links ul{
+    padding: 20px;
+  }
+}
+.classes{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+p{
+  color: #313131;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 22px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.classes-col{
+  flex-basis: 44%;
+  background: #62aef5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: 0.5s;
+  flex-direction: column;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.classes-col:hover{
+  box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+}
+ @media (max-width: 700px){
+  flex-direction: columns;
+ }
+ .luxury{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+ }
+ .luxury,h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+ }
+ .luxury,p{
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+ }
+ .luxury-col{
+  flex-basis: 32%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  
+ }
+ .luxury-col img{
+  width: 100%;
+  display: block;
+  padding-top: 2px;
+  border-radius: 10px;
+ }
+.layer{
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover{
+  background:  rgba(226,0,0,0.7)
+}
+.layer h3 {
+  font-weight: 500;
+  width: 100%;
+  color: aquamarine;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
+}
+.engine{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.engine-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.engine-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.engine-col{
+  padding: 0;
+}
+.engine-col h3{
+  margin-top: 16px;
+  margin-left: 15px;
+  text-align: left;
+}
+.testimonials{
+  width: 80%;
+  margin: 20px;
+  margin-bottom: auto;
+  padding-top: 5px;
+  text-align: center;
+}
+.testimonials-col{
+  flex-basis: 46%;
+  border-radius: 150px;
+  margin: auto;
+  margin-left: 100px;
+  text-align: left;
+  background: rgb(208, 228, 119);
+  cursor: pointer;
+  padding: 0;
+}
+.testimonials-col img{
+  height: 40px;
+  margin-left: -30px;
+  border-radius: 40%;
+  
+}
+.testimonials-col p{
+  padding: auto;
+  margin-top: 0px;
+}
+.testimonials-col h3{
+  align-items: center;
+}
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(images/gl\ 450.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 100px 0;
+  text-align: center;
+  color: rgb(240, 15, 183);
+}
+.cta hi{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+@media(max-width: 700px){
+  .cta h1{
+    font-size: 24px;
+  }
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h1{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.footer ul{
+  list-style: circle;
+  color: #f4433f;
+  padding: 10px;
+}
+.copyright{
+  background-color: aqua;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+.copyright p{
+  font-weight: 600;
+  font-size: 14px;
+}
